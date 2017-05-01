@@ -7,6 +7,7 @@
 2. Download the problem contents.
 	
 	php download.php > 1.txt
+
 	nohup wget -i 1.txt
 
 	It will takes about half an hour.
