@@ -10,7 +10,7 @@
 		$ret = array (
 			'status'=>false
 		);
-		if ($pid == sprintf('%d',intval($pid))) {
+		if ($pid == sprintf('%d',intval($pid)) && $pid != "") {
 			//valid
 			$title = '';
 			for ($i = 1;$i<=count($titlearr);$i++) $title .= $titlearr[$i] . ' ';
